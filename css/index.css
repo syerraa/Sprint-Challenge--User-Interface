@@ -69,6 +69,23 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+   
+}
+ header nav a {
+   margin:1%;
+    display:inline-flex;
+    align-items:center;
+    padding:20px;
+    color:black;
+    align-items:center;
+   text-decoration: none;
+}
+.logo{
+    display:inline-flex;
+    margin-bottom:-10px;
+    margin-right: 85%;
+	margin:1%;
+	width:150px;
 }
 
 .top-content {
@@ -111,7 +128,9 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+     .middle-content .boxes .box1{
+       background:teal;
+    }
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +162,48 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* <!-- About Page --> */
+.container about-page{
+    width: 900px;
+	margin:auto;
+}
+.About {
+    border-bottom: 1px dotted black;
+
+    padding:20px;
+	margin:1%;
+	width: 98%;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+.middle-content2 {
+	/* margin:1%; */
+    /* width: 98%; */
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+   
+}
+.text-container2{
+    border-bottom: 1px dotted black;
+    padding-bottom: 25px;
+    margin:5%;
+    width:20px;
+    margin-left:30px;
+	width: 40%;
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:column;
+}
+button{ 
+    display: flex;
+    flex-direction: center;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    border:2px solid black;
+    border-radius:4px;
 }
